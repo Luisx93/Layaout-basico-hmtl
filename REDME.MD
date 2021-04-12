@@ -1,3 +1,3 @@
 ## Ejemplo de un Layout
 
-Ejemplo de como quedaria una maquetacion en HTML
+Ejemplo de como quedaria una maquetacion en HTML sin CSS
