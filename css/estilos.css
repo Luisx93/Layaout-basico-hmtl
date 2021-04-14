@@ -1,0 +1,24 @@
+h1,h2 { /*Selector en etiqueta h1 y h2*/
+    color: black;
+}
+/*Selector para cambiar tamaño de la fuente*/
+h1{
+    font-size: 40px;  
+}
+h2{
+    font-size: 20px;
+}
+/*Apuntamos a una etiqueta en especial dentro de su elemento*/
+p b{                  
+    font-size: 20px;
+}
+.blue{
+    color: brown;
+}
+
+a[href="https://www.google.com"]{ /*Esté es un selector de clase*/
+    font-size: 10px;
+    color: red;
+}
+
+/*Agregar comentario*/
