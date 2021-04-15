@@ -1,3 +1,10 @@
+/*Fondo*/
+body{
+    background:url(../imagenes/fondo_ny.jpg);
+    background-repeat:repeat-x; /*Repite el fondo*/
+    background-attachment: fixed; /*Fixed indica que el fondo esta reparado para que no se pierda con el scroll*/
+    background-position: center; /*Posiciona el fondo*/
+}
 /*Modelo de una caja*/
 div{
     width:500px;
@@ -6,4 +13,12 @@ div{
     margin: 20px 50px;
     padding: 30px;
     border: 10px outset black;
+}
+
+.caja{
+    position: relative;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
 }
