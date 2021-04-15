@@ -1,33 +1,9 @@
-h1,h2 { /*Selector en etiqueta h1 y h2*/
-    color: #67F089;
+/*Modelo de una caja*/
+div{
+    width:500px;
+    height: 260px;
+    background:#ff8000;
+    margin: 20px 50px;
+    padding: 30px;
+    border: 10px outset black;
 }
-/*Selector para cambiar tamaño de la fuente*/
-h1{
-    font-size: 40px;  
-}
-h2{
-    font-size: 20px;
-}
-/*Apuntamos a una etiqueta en especial dentro de su elemento*/
-p b{                  
-    font-size: 20px;
-}
-.blue{
-    color: brown;
-}
-
-a[href="https://www.google.com"]{ /*Esté es un selector de clase*/
-    font-size: 10px;
-    color: red;
-}
-p{
-    font-size: 1em;
-}
-
-
-
-
-
-
-
-/*Agregar comentario*/
